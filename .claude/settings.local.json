@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(docker --version)",
-      "Bash(wsl --status)"
+      "Bash(wsl --status)",
+      "Bash(docker run *)",
+      "Bash(docker build *)"
     ]
   }
 }
